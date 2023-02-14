@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login.component/login.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { SkillsComponent } from './skills/skills.component';
+import { HeaderComponent } from './header/header.component';
+import { LinksHeaderComponent } from './links-header/links-header.component';
+import { BannerComponent } from './banner/banner.component';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { SkillsComponent } from './skills/skills.component';
     AppComponent,
     LoginComponent,
     SkillsComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    HeaderComponent,
+    LinksHeaderComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

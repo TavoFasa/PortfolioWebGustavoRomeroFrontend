@@ -1,36 +1,11 @@
 
   <div class="container-fluid">
       
-       
-        <nav class="navbar navbar-expand-lg" 
-            style="background-color: rgb(20, 20, 20);">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-               <img src="./assets/yo programo.png" alt="" width="50" height="50">
-            </a>
-          
-            <a class="navbar-brand" href="/skills">
-               <img src="./assets/logo instagram.webp" alt="" width="50" height="50">
-            </a>
-          
-            <a class="navbar-brand" href="/login" >
-                <button button class="btn btn-sm btn-outline-secondary">login</button>
-            </a>
-
-          
-          </div>
-        </nav>
-        <router-outlet></router-outlet>
-      
-     
-      
-      
-      
-      <div class="bannerfondo">
-           <img src="/assets/bannerFondo.jpg"  class="img-fluid" alt="banner">
-      </div>
+      <app-header></app-header>
+      <app-banner></app-banner>
       <app-skills></app-skills>
       <app-proyectos></app-proyectos>
+      <router-outlet></router-outlet>
       
    </div>
 
