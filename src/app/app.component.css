@@ -1,0 +1,12 @@
+
+
+.nav{ display: block; color: black;}
+
+.logo {width: 40px;height: 40px;}
+.bannerfondo {
+background-image: url(/assets/bannerFondo.jpg);
+height: 50vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
