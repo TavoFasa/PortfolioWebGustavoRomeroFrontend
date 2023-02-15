@@ -1,4 +1,15 @@
 .redes{
-    width: 40px;
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+button{
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
 
 }
